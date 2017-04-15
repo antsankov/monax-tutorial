@@ -1,3 +1,6 @@
+monax:
+	./scripts/install_monax.sh
+
 chain:
 	./scripts/make_chain.sh
 
