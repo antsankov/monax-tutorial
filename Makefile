@@ -9,3 +9,6 @@ app:
 
 delete-chain:
 	./scripts/delete_chain.sh
+
+clean:
+	./scripts/clean_app.sh
