@@ -1,0 +1,9 @@
+{
+  "name": "idis_app",
+  "version": "0.0.1",
+  "dependencies": {
+    "prompt": "*",
+    "@monax/legacy-db": "0.16.2",
+    "@monax/legacy-contracts": "0.16.3"
+  }
+}
