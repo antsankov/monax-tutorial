@@ -1,14 +1,17 @@
+contracts:
+	./scripts/make_contracts.sh
+
 monax:
-	./scripts/install_monax.sh
+	./scripts/make_monax.sh
 
 chain:
 	./scripts/make_chain.sh
 
 app:
-	./scripts/build_app.sh
+	./scripts/make_app.sh
 
-delete-chain:
-	./scripts/delete_chain.sh
+clean-chain:
+	./scripts/clean_chain.sh
 
-clean:
-	./scripts/clean_app.sh
+clean-contracts:
+	./scripts/clean_contracts.sh
